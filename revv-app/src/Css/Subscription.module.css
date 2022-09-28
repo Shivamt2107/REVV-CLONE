@@ -1,0 +1,109 @@
+.subBackImg{
+    background-image: url("https://www.revv.co.in/assets/RentalImages/HomeScreen/heroCarousel/LT_BG_1.png");
+    width: 100%;
+    height:590px;
+    padding: 40px;
+}
+
+.headerSubscription{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 450px;
+    width: 90%;
+    margin: auto;
+    gap: 40px;
+}
+.headerSubscription>div:nth-child(1){
+    /* border: 1px solid red; */
+    width: 43%;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.headerSubscription>div:nth-child(2){
+    /* border: 1px solid red; */
+    width: 48%;
+}
+
+.rentalAndSubscriptionColor{
+    background-color:#49a6ba;;
+    height: 20%;
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+    padding: 10px;
+}
+
+.subscriptionImg{
+    /* border: 1px solid; */
+    margin-top: 33px;
+    padding: 35px;
+}
+.rentalAndSubscriptionColor>button{
+    /* background-color: black; */
+    width: 80%;
+    padding: 1px;
+    border-radius: 18px 18px ;
+}
+.rentalAndSubscriptionColor>button:hover{
+    background-color: white;
+    color: teal;
+}
+
+.rentalHSixTag{
+    font-family: Poppins;
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.4;
+}
+
+.rentalPTag{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+}
+.underFormSubsciptionImg{
+    /* border: 1px solid; */
+    padding: 15px;
+}
+
+.underFormSubsciptionImg>img{
+
+    width: 70%;
+    margin: auto;
+}
+
+
+.underFormSubsciptionImg>h1{
+    font-size: 18px;
+    line-height: 1.56;
+    color: rgb(90, 82, 84);
+    font-family: Poppins;
+    font-weight: 600;
+    text-align: center;
+}
+
+.subscriptionForm{
+    margin-top: 19px;
+    padding: 5px;
+}
+
+
+.mapImg{
+    height: 40px;
+    margin-top: 7px;
+
+}
+
+.select{
+    font-weight: 700;
+    
+}
