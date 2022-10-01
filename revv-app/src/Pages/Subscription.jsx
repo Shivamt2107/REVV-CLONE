@@ -7,6 +7,7 @@ import Hatchbacks from '../RevCar/Hatchbacks'
 import Sedans from '../RevCar/Sedans'
 import SUVs from '../RevCar/SUVs'
 import { AddIcon, MinusIcon, PhoneIcon } from '@chakra-ui/icons'
+import Footer from '../Footer/Footer'
 
 const sanitized = [
     { id: 1, image: "https://www.revv.co.in/assets/RentalImages/HomeScreen/safeCars/mask-group125.webp" },
@@ -438,25 +439,25 @@ function Subscription() {
                             <h1>2500+</h1>
                             <p>Happy Subscribers</p>
                         </div>
-                       
+
                         <div>
                             <img src="https://www.revv.co.in/grapheneImages/newopen/ic-across-india.svg" alt="our_journey" />
                             <h1>22+Cities</h1>
                             <p>Across India</p>
                         </div>
-                       
+
                         <div>
                             <img src="https://www.revv.co.in/grapheneImages/newopen/ic-subscription.svg" alt="our_journey" />
                             <h1>5000+years</h1>
                             <p>SubScription Booked</p>
                         </div>
-                       
+
                         <div>
                             <img src="https://www.revv.co.in/grapheneImages/newopen/ic-customer-rating.svg" alt="our_journey" />
                             <h1>4.7 / 5</h1>
                             <p>Customer Rating</p>
                         </div>
-                       
+
 
                     </div>
 
@@ -467,9 +468,9 @@ function Subscription() {
 
 
 
+            {/* footer */}
 
-
-
+            <Footer />
 
 
 
