@@ -1,5 +1,8 @@
 import { Box, Button, ButtonGroup, Container, Flex, Heading, Image, SliderProvider, Spacer, Text } from "@chakra-ui/react";
 import { Link } from "react-router-dom"
+import Login from "./Login";
+
+
 
 
 function Navbar() {
@@ -25,19 +28,32 @@ function Navbar() {
                             <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal'>Mahindra Subscripition</Text></Button>
                         </Link>
                         <Spacer />
+                        <Link to="FAQs">
+                            <Button h="30px" colorScheme='teal'  variant='outline'><Text fontSize='16px' color='teal.500'>FAQs</Text></Button>
+                        </Link>
 
-                        <Text fontSize='20px' color='black'>
-                            <Link to="login"> Login</Link> or <Link to="signup">SignUp</Link>
-                        </Text>
+                        <Spacer />
+                       
+                        <Link to="/">
+                            <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal'>Login or SignUp</Text></Button>
+                        </Link>
+                     
                     </ButtonGroup>
                 </Flex>
 
 
             </Box>
+            <hr />
         </div>
 
     )
 }
 
 export default Navbar;
+
+
+
+
+
+
 
