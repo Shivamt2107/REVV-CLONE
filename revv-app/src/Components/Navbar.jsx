@@ -2,7 +2,7 @@ import { Box, Button, ButtonGroup, Container, Flex, Heading, Image, SliderProvid
 import { Link } from "react-router-dom"
 import Login from "./Login";
 
-
+import style from "../Css/FAQs.module.css"
 
 
 function Navbar() {
@@ -29,15 +29,19 @@ function Navbar() {
                         </Link>
                         <Spacer />
                         <Link to="FAQs">
-                            <Button h="30px" colorScheme='teal'  variant='outline'><Text fontSize='16px' color='teal.500'>FAQs</Text></Button>
+                            <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal.500'>FAQs</Text></Button>
                         </Link>
 
                         <Spacer />
-                       
-                        <Link to="/">
-                            <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal'>Login or SignUp</Text></Button>
-                        </Link>
+
+
+                        <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal'><Link to="/login">Login</Link></Text></Button>
                      
+                        <Button h="30px" colorScheme='teal' variant='outline'><Text fontSize='16px' color='teal'><Link to="/signup">SignUp</Link></Text></Button>
+
+
+
+
                     </ButtonGroup>
                 </Flex>
 
