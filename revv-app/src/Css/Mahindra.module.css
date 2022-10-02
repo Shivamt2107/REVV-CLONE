@@ -1,0 +1,96 @@
+
+
+
+
+
+.mahindraDivBackIMG {
+    background-image: url("https://www.revv.co.in/assets/RentalImages/HomeScreen/xST-NEW-HOME-PAGE.jpg.pagespeed.ic.r7KH7kX050.jpg");
+    width: 100%;
+    height: 540px;
+    padding: 40px;
+   
+}
+
+
+.HyndaiFormData{
+    border: 2px solid red;
+    
+}
+
+.hyundaiFormDiv{
+    width: 50%;
+    height: auto;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    background-color: whitesmoke;
+    padding: 50px;
+}
+
+.hyundaiCarHTwoTag{
+    margin-top: 40px;
+    font-family: Poppins;
+    font-size: 21px;
+    font-weight: 400;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    text-align: center;
+    color: #5a5254;
+    margin-bottom: 30px;
+    line-height: 1;
+}
+
+.FormControl{
+    margin-top: 50px;
+    /* border: 1px solid black; */
+
+}
+
+.mapImg{
+    /* border: 1px solid black; */
+    height: 45px;
+}
+
+.select{
+    /* border: 1px solid black; */
+    margin-top: 7px;
+}
+
+.DateGroup{
+    border: 1px solid gray;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 21px;
+    color: #5a5254;
+}
+
+.DateLabel{
+    /* border: 1px solid black; */
+    /* text-align: left; */
+    margin-left: -10px;
+}
+
+.DateGroup{
+    /* border: 1px solid black; */
+    display: flex;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.dateControl{
+    /* border: 1px solid black; */
+    margin-left: -10px;
+    background-color: whitesmoke;
+}
+
+.HyundaiButton{
+    border: 1px solid black;
+    margin-top: 20px;
+    padding: 13px;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+    background-image: linear-gradient(270deg, #2a6864 25%, #012331);
+}

@@ -1,3 +1,5 @@
+
+
 import React from 'react';
 import {
   Flex,
@@ -9,53 +11,75 @@ import {
   Switch,
   useColorMode,
   useColorModeValue,
+  HStack,
 } from '@chakra-ui/react';
+import { PhoneIcon, AddIcon, WarningIcon } from '@chakra-ui/icons'
+import { FaFacebook, FaTwitter } from 'react-icons/fa';
+import style from "../Css/FAQs.module.css"
 
-function Login(){
+
+function Login() {
   const { toggleColorMode } = useColorMode();
-  const formBackground = useColorModeValue('gray.100', 'gray.700');
+  const formBackground = useColorModeValue('gray.200', 'gray.700');
+
+
+
 
   return (
-    // <Flex h="100vh" alignItems="center" justifyContent="center">
-    //   <Flex
-    //     flexDirection="column"
-    //     bg={formBackground}
-    //     p={12}
-    //     borderRadius={8}
-    //     boxShadow="lg"
-    //   >
-    //     <Heading mb={6}>Log In</Heading>
-    //     <Input
-    //       placeholder="johndoe@gmail.com"
-    //       type="email"
-    //       variant="filled"
-    //       mb={3}
-    //     />
-    //     <Input
-    //       placeholder="**********"
-    //       type="password"
-    //       variant="filled"
-    //       mb={6}
-    //     />
-    //     <Button colorScheme="teal" mb={8}>
-    //       Log In
-    //     </Button>
-    //     <FormControl display="flex" alignItems="center">
-    //       <FormLabel htmlFor="dark_mode" mb="0">
-    //         Enable Dark Mode?
-    //       </FormLabel>
-    //       <Switch
-    //         id="dark_mode"
-    //         colorScheme="teal"
-    //         size="lg"
-    //         onChange={toggleColorMode}
-    //       />
-    //     </FormControl>
-    //   </Flex>
-    // </Flex>
-    <>
-        <h1>Login</h1>
-    </>
+    <Flex h="600px" alignItems="center" justifyContent="center">
+      <Flex h="500px"
+        w="600px"
+        flexDirection="column"
+        bg={formBackground}
+        p={100}
+        borderRadius={8}
+        boxShadow="xl"
+      >
+        <Heading mb={10} mt="-60px">Log In</Heading>
+        <Input
+          placeholder="Shivamgote@hotmail.com"
+          type="email"
+          variant="filled"
+          mb={3}
+          bg="white"
+          w="100%"
+          p="20px"
+        />
+        <Input
+          placeholder="**********"
+          type="password"
+          variant="filled"
+          mb={6}
+          bg="white"
+          p="20px"
+        />
+        <Button p="20px" colorScheme="teal" mb={8}>
+          Log In
+        </Button>
+        <FormControl display="flex" alignItems="center">
+          <FormLabel htmlFor="dark_mode" mb="0">
+            Enable Dark Mode?
+          </FormLabel>
+          <Switch
+            id="dark_mode"
+            colorScheme="teal"
+            size="lg"
+            onChange={toggleColorMode}
+          />
+        </FormControl>
+
+       
+          <Button className={style.FTButton} colorScheme='facebook' leftIcon={<FaFacebook />}>
+            Facebook
+          </Button>
+          <Button className={style.FTButton} colorScheme='twitter' leftIcon={<FaTwitter />}>
+            Twitter
+          </Button>
+       
+
+
+      </Flex>
+    </Flex>
   );
 };
 

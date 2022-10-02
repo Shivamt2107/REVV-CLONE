@@ -5,6 +5,7 @@ import HyundaiSubscription from './HyundaiSubscription'
 import Login from '../Components/Login'
 import MahindraSubscription from './MahindraSubscription'
 import FAQs from './FAQs'
+import SignUp from '../Components/SignUp'
 // import SignUp from './SignUp'
 
 function AllRoutes() {
@@ -17,6 +18,7 @@ function AllRoutes() {
         <Route path='/hyundai' element={<HyundaiSubscription/>}></Route>
         <Route path='/mahindra' element={<MahindraSubscription/>}></Route>
         <Route path='/login' element={<Login/>}></Route>
+        <Route path='/signup' element={<SignUp/>}></Route>
         <Route path='/faqs' element={<FAQs/>} ></Route>
         
 
